@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AyanamiConnect.API", "AyanamiConnect.API\AyanamiConnect.API.csproj", "{679B080B-6DF3-490B-A91F-580299755C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AyanamiConnect.Application", "AyanamiConnect.Application\AyanamiConnect.Application.csproj", "{3FD965D8-2146-40F4-A270-EB42430C4966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AyanamiConnect.Domain", "AyanamiConnect.Domain\AyanamiConnect.Domain.csproj", "{9466D188-3D04-4B50-95A0-ECA9B3ED6B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AyanamiConnect.Persistence", "AyanamiConnect.Persistence\AyanamiConnect.Persistence.csproj", "{77A016FD-3188-4CDD-A230-7453E4FD36E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AyanamiConnect.Infrastructure", "AyanamiConnect.Infrastructure\AyanamiConnect.Infrastructure.csproj", "{19AC974B-10A6-4D98-BE75-46476AE0A343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AyanamiConnect.BOT", "AyanamiConnect.BOT\AyanamiConnect.BOT.csproj", "{339661FE-16C7-446A-A74B-A2FB74684415}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{679B080B-6DF3-490B-A91F-580299755C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679B080B-6DF3-490B-A91F-580299755C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679B080B-6DF3-490B-A91F-580299755C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679B080B-6DF3-490B-A91F-580299755C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD965D8-2146-40F4-A270-EB42430C4966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD965D8-2146-40F4-A270-EB42430C4966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD965D8-2146-40F4-A270-EB42430C4966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD965D8-2146-40F4-A270-EB42430C4966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9466D188-3D04-4B50-95A0-ECA9B3ED6B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9466D188-3D04-4B50-95A0-ECA9B3ED6B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9466D188-3D04-4B50-95A0-ECA9B3ED6B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9466D188-3D04-4B50-95A0-ECA9B3ED6B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A016FD-3188-4CDD-A230-7453E4FD36E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A016FD-3188-4CDD-A230-7453E4FD36E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A016FD-3188-4CDD-A230-7453E4FD36E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A016FD-3188-4CDD-A230-7453E4FD36E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19AC974B-10A6-4D98-BE75-46476AE0A343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19AC974B-10A6-4D98-BE75-46476AE0A343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19AC974B-10A6-4D98-BE75-46476AE0A343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19AC974B-10A6-4D98-BE75-46476AE0A343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339661FE-16C7-446A-A74B-A2FB74684415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339661FE-16C7-446A-A74B-A2FB74684415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339661FE-16C7-446A-A74B-A2FB74684415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339661FE-16C7-446A-A74B-A2FB74684415}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

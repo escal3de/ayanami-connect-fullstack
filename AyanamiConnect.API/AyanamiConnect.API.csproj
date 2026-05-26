@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CSharpFunctionalExtensions" Version="3.7.0" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.1"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.8">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AyanamiConnect.Infrastructure\AyanamiConnect.Infrastructure.csproj" />
+      <ProjectReference Include="..\AyanamiConnect.Persistence\AyanamiConnect.Persistence.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="publish-api\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="publish-api\appsettings.json" />
+      <_ContentIncludedByDefault Remove="publish-api\AyanamiConnect.API.deps.json" />
+      <_ContentIncludedByDefault Remove="publish-api\AyanamiConnect.API.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="publish-api\AyanamiConnect.API.staticwebassets.endpoints.json" />
+    </ItemGroup>
+
+</Project>
